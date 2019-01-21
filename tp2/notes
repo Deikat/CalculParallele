@@ -1,0 +1,30 @@
+mpiexec -np 4 ./hello
+
+3-
+exec 1:
+Bonjour de la part de P1!
+Bonjour de la part de P2!
+Bonjour de la part de P3!
+Bonjour de la part de P4!
+Bonjour de la part de P5!
+Bonjour de la part de P6!
+Bonjour de la part de P7!
+
+exec 2:
+Bonjour de la part de P6!
+Bonjour de la part de P1!
+Bonjour de la part de P2!
+Bonjour de la part de P3!
+Bonjour de la part de P4!
+Bonjour de la part de P5!
+Bonjour de la part de P7!
+
+exec 3:
+Bonjour de la part de P4!
+Bonjour de la part de P6!
+Bonjour de la part de P2!
+Bonjour de la part de P5!
+Bonjour de la part de P1!
+Bonjour de la part de P3!
+Bonjour de la part de P7!
+
